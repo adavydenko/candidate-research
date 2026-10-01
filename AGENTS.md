@@ -58,3 +58,12 @@ A result (`R-*`) is an observed fact tied to evidence. A claim (`C-*`) is a gene
 ## Novelty threats
 
 Maintain `novelty/THREAT_REGISTER.md` and candidate-specific threat analysis. If prior art closes a claim, mark it `novelty-closed` and narrow, merge, park, or kill the candidate instead of defending it artificially.
+
+## ChatGPT project integration
+
+- Canonical research repository: `adavydenko/candidate-research`.
+- Before substantial work in any project chat, read the current `AGENTS.md` and relevant repository files from `main`.
+- Treat repository `main` as the accepted canonical state; chat attachments, generated files, and conversation summaries are working copies only.
+- Propose substantive repository changes through a branch and pull request. Do not write directly to `main`.
+- After a PR is merged, subsequent work must use the merged repository state rather than an older chat-local copy.
+
